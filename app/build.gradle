@@ -39,8 +39,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.airbnb.android:epoxy:2.7.3'
+    implementation 'com.airbnb.android:epoxy-databinding:2.7.3'
     kapt 'com.android.databinding:compiler:3.0.1'
-    implementation 'com.xwray:groupie:2.0.3'
-    implementation 'com.xwray:groupie-databinding:2.0.3'
-    implementation 'com.xwray:groupie-kotlin-android-extensions:2.0.3'
+    kapt 'com.airbnb.android:epoxy-processor:2.7.3'
+}
+
+kapt {
+    correctErrorTypes = true
 }

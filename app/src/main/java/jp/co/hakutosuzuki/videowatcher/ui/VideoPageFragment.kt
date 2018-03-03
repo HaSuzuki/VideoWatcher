@@ -21,5 +21,4 @@ class VideoPageFragment : Fragment() {
         activity?.supportStartPostponedEnterTransition()
         return binding.root
     }
-
 }
