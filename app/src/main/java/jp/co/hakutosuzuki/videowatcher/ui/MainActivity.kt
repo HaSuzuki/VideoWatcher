@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setActionBar() {
         supportActionBar?.let {
-            it.setDisplayHomeAsUpEnabled(true)
+            //it.setDisplayHomeAsUpEnabled(true)
             it.setDisplayShowTitleEnabled(false)
         }
     }
